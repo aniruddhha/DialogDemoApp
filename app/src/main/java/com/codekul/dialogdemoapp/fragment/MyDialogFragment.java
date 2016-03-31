@@ -80,8 +80,6 @@ public class MyDialogFragment extends DialogFragment {
 
                 progressDialog.setProgress(10 * i);
             }
-
-
             dialog = progressDialog;
         }
         else {
