@@ -25,9 +25,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                //MyDialogFragment dialog = new MyDialogFragment();
-                //dialog.show(getSupportFragmentManager(), "alert");
-
                 showDialog("alert");
             }
         });
